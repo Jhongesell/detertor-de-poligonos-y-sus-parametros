@@ -1,0 +1,1 @@
+# detertor-de-poligonos-y-sus-parametros
