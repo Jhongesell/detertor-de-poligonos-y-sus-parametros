@@ -10,7 +10,7 @@ DIBUJANDO CENTRO Y COORDENADAS
 import cv2
 import numpy as np
 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
 
 verdeBajo=np.array([50,100,20],np.uint8)
 verdeAlto=np.array([70,255,255],np.uint8)
@@ -39,6 +39,9 @@ while True:
                 nuevoContorno=cv2.convexHull(c)
                 cv2.drawContours(frame,[nuevoContorno], 0, (0,255,0), 3)
         #cv2.imshow('maskGreen',maskGreen)
+        # insertar texto
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(frame,'TW INTERACTIVE',(50,400),font,2,(0,0,0),2,cv2.LINE_AA)
         cv2.imshow('frame',frame)
         if cv2.waitKey(1) & 0xFF == ord('s'):
             break

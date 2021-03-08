@@ -9,7 +9,7 @@ Suavizando contornos de las colores identificados
 import cv2
 import numpy as np
 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
 
 verdeBajo=np.array([50,100,20],np.uint8)
 verdeAlto=np.array([70,255,255],np.uint8)

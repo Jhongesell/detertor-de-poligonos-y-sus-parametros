@@ -9,7 +9,7 @@ Created on Wed Feb 17 18:40:16 2021
 import cv2
 import numpy as np
 
-cap=cv2.VideoCapture(2)
+cap=cv2.VideoCapture(0)
 
 redBajo1=np.array([0,100,20],np.uint8)
 redAlto1=np.array([8,255,255],np.uint8)

@@ -23,7 +23,7 @@ def dibujar(mask,color):
             cv2.putText(frame,'{},{}'.format(x,y),(x+10,y), font, 0.75,(0,0,255),1,cv2.LINE_AA)
             cv2.drawContours(frame,[nuevoContorno], 0, (0,255,0), 3)
                 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
 
 azulBajo = np.array([105,100,20],np.uint8)
 azulAlto = np.array([125,255,255],np.uint8)
