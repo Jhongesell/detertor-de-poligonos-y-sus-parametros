@@ -23,12 +23,23 @@ def dibujar(mask,color):
             cv2.drawContours(frame,[nuevoContorno],0,color,3)
 
 cap=cv2.VideoCapture(1)
+image01 = cv2.imread('figure03.jpeg') # imagen a leer
+
+naranjaBajo = np.array([11,100,20],np.uint8)
+naranjaAlto = np.array([20,255,255],np.uint8)
+
+amarilloBajo = np.array([26,100,20],np.uint8)
+amarilloAlto = np.array([32,255,255],np.uint8)
+
+turquezaBajo = np.array([88,100,20],np.uint8)
+turquezaAlto = np.array([92,255,255],np.uint8)
+
+celesteBajo = np.array([93,100,20],np.uint8)
+celesteAlto = np.array([99,255,255],np.uint8)
 
 azulBajo = np.array([100,100,20],np.uint8)
 azulAlto = np.array([125,255,255],np.uint8)
 
-amarilloBajo = np.array([15,100,20],np.uint8)
-amarilloAlto = np.array([45,255,255],np.uint8)
 
 redBajo1 = np.array([0,100,20],np.uint8)
 redAlto1 = np.array([5,255,255],np.uint8)
@@ -52,6 +63,7 @@ while True:
         dibujar(maskAmarillo,(0,255,255))
         dibujar(maskRed,(0,0,255))
         cv2.imshow('frame',frame)
+        cv2.imshow('imagen',image01)
         if cv2.waitKey(1) & 0xFF == ord('s'):
             break
 cap.release()

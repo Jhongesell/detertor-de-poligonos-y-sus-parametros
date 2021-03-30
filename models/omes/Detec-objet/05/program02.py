@@ -17,7 +17,7 @@ Este programa carga una imagen y la descompone en sus 03 bandas de colores BGR
 import cv2
 import numpy as np
 
-bgr=cv2.imread('prueba.jpg')
+bgr=cv2.imread('figure04.jpeg')
 C1=bgr[:,:,0]
 C2=bgr[:,:,1]
 C3=bgr[:,:,2]

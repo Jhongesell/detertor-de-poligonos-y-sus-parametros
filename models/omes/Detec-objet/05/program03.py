@@ -1,22 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Feb 16 22:43:52 2021
-
-@author: jhongvp
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 15 23:20:52 2021
-
-@author: jhongvp
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Mon Feb 15 23:15:44 2021
 Programa que muestra 03 canales de colores, imprime imagen de RGB
 y una segunda imagen de BGR
@@ -26,7 +10,7 @@ y una segunda imagen de BGR
 import cv2
 import numpy as np
 
-bgr=cv2.imread('prueba.jpg')
+bgr=cv2.imread('figure04.jpeg')
 C1=bgr[:,:,0]
 C2=bgr[:,:,1]
 C3=bgr[:,:,2]

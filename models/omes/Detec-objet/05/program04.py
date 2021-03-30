@@ -9,7 +9,7 @@ Created on Tue Feb 16 22:53:27 2021
 import cv2
 import numpy as np
 
-bgr=cv2.imread('prueba.jpg')
+bgr=cv2.imread('figure04.jpeg')
 
 gris=cv2.cvtColor(bgr,cv2.COLOR_BGR2GRAY)
 
