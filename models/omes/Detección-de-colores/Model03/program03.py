@@ -24,7 +24,21 @@ rojoAlto1 = np.array([10, 255, 255], np.uint8)
 rojoBajo2 = np.array([175, 100, 20], np.uint8)
 rojoAlto2 = np.array([180, 255, 255], np.uint8)
 
-imagen = cv2.imread('imagen05.png')
+# Cargando imagen tipo PNG
+#imagen = cv2.imread('images/png/imagen01.png')
+#imagen = cv2.imread('images/png/imagen02.png')
+#imagen = cv2.imread('images/png/imagen03.png')
+#imagen = cv2.imread('images/png/imagen04.png') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/png/imagen05.png') # No es capaz de contar
+
+# Cargando imagen tipo JPG
+#imagen = cv2.imread('images/jpg/imagen01.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen02.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen05.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('imagen05.jpg') # Imprime error asociado al momento M
+imagen = cv2.imread('imagen02.png')
+
+
 imagenHSV = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
 
 #Detectando colores 
