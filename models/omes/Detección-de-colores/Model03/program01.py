@@ -24,12 +24,41 @@ azulAlto = np.array([126, 255, 255], np.uint8)
 rosadoBajo = np.array([145, 100, 20], np.uint8)
 rosadoAlto = np.array([155, 255, 255], np.uint8)
 
-#imagen = cv2.imread('image01.jpg')
-#imagen = cv2.imread('image02.jpg')
-imagen = cv2.imread('image03.jpg')
-#imagen = cv2.imread('figure01.jpg')
-#imagen = cv2.imread('figure02.jpeg')
-#imagen = cv2.imread('figure03.jpeg')
+# Cargando imagen a utilizar
+# Cargando imagen tipo PNG
+#imagen = cv2.imread('images/png/imagen01.png')
+#imagen = cv2.imread('images/png/imagen02.png')
+#imagen = cv2.imread('images/png/imagen03.png')
+#imagen = cv2.imread('images/png/imagen04.png') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/png/imagen05.png') # No es capaz de contar
+#imagen = cv2.imread('images/png/imagen06.png')
+#imagen = cv2.imread('images/png/imagen07.png')
+#imagen = cv2.imread('images/png/imagen08.png')
+imagen = cv2.imread('images/png/imagen09.png')
+
+# Cargando imagen tipo JPG
+#imagen = cv2.imread('images/jpg/imagen01.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen02.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen03.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen04.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen05.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen06.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen07.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen08.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen09.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen10.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen11.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen12.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen13.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen14.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpg/imagen15.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('imagen05.jpg') # Imprime error asociado al momento M
+#imagen = cv2.imread('imagen02.png')
+
+# Cargando imagen tipo JPEG
+#imagen = cv2.imread('images/jpeg/imagen01.jpeg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpeg/imagen02.jpeg') # Imprime error asociado al momento M
+#imagen = cv2.imread('images/jpeg/imagen03.jpeg')
 
 imagenHSV = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
 

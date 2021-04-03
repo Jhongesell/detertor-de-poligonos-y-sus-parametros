@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="493.67161"
-     inkscape:cy="575.58813"
+     inkscape:cx="530.93371"
+     inkscape:cy="732.02927"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="710"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
      inkscape:window-x="0"
-     inkscape:window-y="3"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,16 +55,17 @@
     <rect
        style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect29"
-       width="210.15475"
-       height="296.33334"
-       x="0"
-       y="0.66666663"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       width="131.34671"
+       height="185.20833"
+       x="145.2426"
+       y="-195.7917"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <path
        sodipodi:type="star"
-       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path31"
        sodipodi:sides="4"
        sodipodi:cx="38.553574"
@@ -78,12 +79,13 @@
        inkscape:randomized="0"
        d="m 48.380954,146.56547 -12.072445,-2.38942 -12.11803,-2.14629 2.38942,-12.07245 2.146294,-12.11803 12.072445,2.38942 12.11803,2.1463 -2.38942,12.07244 z"
        inkscape:transform-center-y="-1.6655418e-06"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path44"
        sodipodi:sides="3"
        sodipodi:cx="108.10119"
@@ -97,12 +99,13 @@
        inkscape:randomized="0"
        d="M 124.73214,67.190472 106.03952,63.619563 87.346908,60.048657 99.785714,45.64583 112.22452,31.243003 l 6.25381,17.973735 z"
        inkscape:transform-center-x="1.3619047e-06"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ffde59;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffde59;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path46"
        sodipodi:sides="3"
        sodipodi:cx="128.51192"
@@ -117,12 +120,13 @@
        d="m 142.11906,218.38095 -16.09742,-4.31329 -16.09742,-4.3133 11.78413,-11.78413 11.78413,-11.78413 4.31329,16.09742 z"
        inkscape:transform-center-x="2.4902816"
        inkscape:transform-center-y="-2.4902825"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path48"
        sodipodi:sides="3"
        sodipodi:cx="174.625"
@@ -137,12 +141,13 @@
        d="m 178.40476,66.434525 -9.05422,-9.135637 -9.05423,-9.135635 12.43881,-3.27337 12.4388,-3.27337 -3.38458,12.409006 z"
        inkscape:transform-center-x="1.8898831"
        inkscape:transform-center-y="1.9540882"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path50"
        sodipodi:sides="3"
        sodipodi:cx="22.678572"
@@ -157,12 +162,13 @@
        d="m 29.482143,262.22618 -7.721374,-1.58968 -7.721375,-1.58969 5.237392,-5.89206 5.237392,-5.89207 2.483982,7.48175 z"
        inkscape:transform-center-x="0.91780328"
        inkscape:transform-center-y="-1.4341313"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path52"
        sodipodi:sides="4"
        sodipodi:cx="22.678572"
@@ -177,12 +183,13 @@
        d="m 30.238095,35.440476 -8.628601,-4.168864 -9.514255,1.145055 4.168864,-8.628602 -1.145055,-9.514254 8.628602,4.168864 9.514254,-1.145055 -4.168864,8.628601 z"
        inkscape:transform-center-x="2.6928371"
        inkscape:transform-center-y="-0.6275368"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path54"
        sodipodi:sides="4"
        sodipodi:cx="76.351196"
@@ -196,12 +203,13 @@
        inkscape:randomized="0"
        d="m 86.934529,269.02977 -10.316063,-2.6111 -10.09465,3.36705 2.611103,-10.31606 -3.367055,-10.09465 10.316063,2.61111 10.094649,-3.36706 -2.611103,10.31606 z"
        inkscape:transform-center-y="-3.2655417e-06"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path56"
        sodipodi:sides="4"
        sodipodi:cx="167.06548"
@@ -216,12 +224,13 @@
        d="m 177.64881,145.05358 -10.58333,-3.09979 -10.58334,3.09979 3.09979,-10.58333 -3.09979,-10.58334 10.58334,3.09979 10.58333,-3.09979 -3.09979,10.58334 z"
        inkscape:transform-center-x="2.1047619e-06"
        inkscape:transform-center-y="-1.6941132e-06"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#7ed957;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path58"
        sodipodi:sides="5"
        sodipodi:cx="164.79761"
@@ -236,12 +245,13 @@
        d="m 174.62499,272.05355 -10.07333,-5.6649 -10.37734,5.08664 2.27482,-11.33085 -8.04447,-8.29758 11.47925,-1.33795 5.40558,-10.21483 4.81975,10.50396 11.3853,1.98447 -8.50048,7.82975 z"
        inkscape:transform-center-x="2.0761904e-06"
        inkscape:transform-center-y="-3.2464941e-06"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path60"
        sodipodi:sides="5"
        sodipodi:cx="86.178574"
@@ -256,12 +266,13 @@
        d="m 92.982145,171.51191 -5.384482,-0.70146 -3.630391,4.03794 -0.996768,-5.33771 -4.962161,-2.20491 4.768445,-2.59743 0.563607,-5.40065 3.943829,3.73241 5.310489,-1.13287 -2.331024,4.90418 z"
        inkscape:transform-center-x="0.6833308"
        inkscape:transform-center-y="0.10184032"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff5757;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path62"
        sodipodi:sides="5"
        sodipodi:cx="163.28572"
@@ -276,12 +287,13 @@
        d="m 167.82143,188.8988 -3.81182,-0.91781 -2.91704,2.61977 -0.30504,-3.90887 -3.39297,-1.96472 3.6233,-1.49802 0.82008,-3.83403 2.54436,2.98305 3.8998,-0.40485 -2.0508,3.34165 z"
        inkscape:transform-center-x="0.44739118"
        inkscape:transform-center-y="-0.12109548"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path64"
        sodipodi:sides="5"
        sodipodi:cx="187.47618"
@@ -296,12 +308,13 @@
        d="m 192.76785,101.20833 -5.37283,-2.946445 -5.47316,2.755625 1.14195,-6.020372 -4.31205,-4.353746 6.07859,-0.774342 2.80816,-5.446385 2.61483,5.541799 6.04759,0.987695 -4.46254,4.199362 z"
        inkscape:transform-center-x="-0.050159856"
        inkscape:transform-center-y="-0.83331269"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path66"
        sodipodi:sides="5"
        sodipodi:cx="73.327377"
@@ -316,12 +329,13 @@
        d="m 79.374996,89.869049 -4.712149,-0.473466 -3.06142,3.613342 -1.005842,-4.62783 -4.382523,-1.794999 4.090506,-2.38669 0.352871,-4.722712 3.533913,3.152774 4.60061,-1.123798 -1.906427,4.335212 z"
        inkscape:transform-center-x="0.53334884"
        inkscape:transform-center-y="0.15352155"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <path
        sodipodi:type="star"
-       style="fill:#ffde59;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffde59;fill-opacity:1;stroke:none;stroke-width:0.42399999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path68"
        sodipodi:sides="5"
        sodipodi:cx="32.505951"
@@ -336,67 +350,74 @@
        d="m 37.041665,200.99405 -4.47833,-2.2683 -4.407399,2.40321 0.773395,-4.96008 -3.647551,-3.44905 4.956314,-0.79721 2.153088,-4.53485 2.289776,4.46739 4.978233,0.64636 -3.541155,3.55821 z"
        inkscape:transform-center-x="0.035465873"
        inkscape:transform-center-y="-0.68805988"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="matrix(0,0.62499998,-0.62499998,0,196.20837,145.2426)" />
     <ellipse
        style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path70"
-       cx="111.88095"
-       cy="128.42262"
-       rx="6.0476193"
-       ry="6.8035712"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="215.1682"
+       cy="-115.94424"
+       rx="3.779762"
+       ry="4.2522321"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <ellipse
        style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path72"
-       cx="60.854164"
-       cy="27.124998"
-       rx="4.9136906"
-       ry="7.5595236"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="183.27646"
+       cy="-179.25525"
+       rx="3.0710566"
+       ry="4.7247019"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <ellipse
        style="fill:#8c52ff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path74"
-       cx="23.8125"
-       cy="74.75"
-       rx="4.1577382"
-       ry="5.2916665"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="160.12541"
+       cy="-149.48962"
+       rx="2.5985863"
+       ry="3.3072915"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <ellipse
        style="fill:#ffde59;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path76"
-       cx="147.78868"
-       cy="87.223213"
-       rx="6.4255953"
-       ry="7.1815472"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="237.61052"
+       cy="-141.69386"
+       rx="4.0159969"
+       ry="4.4884667"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <circle
        style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path78"
-       cx="164.41965"
-       cy="22.96726"
-       r="4.1577382"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="248.00488"
+       cy="-181.85384"
+       r="2.5985863"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
     <ellipse
        style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path80"
-       cx="176.16989"
-       cy="257.88229"
-       rx="6.7705827"
-       ry="7.3676753"
-       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen07.png"
+       cx="262.90829"
+       cy="-53.363785"
+       rx="4.2316141"
+       ry="4.6047969"
+       inkscape:export-filename="/media/jhongvp/C2C434F6C434EDF3/git_workspace/detertor-de-poligonos-y-sus-parametros/models/omes/Detección-de-colores/Model03/images/png/imagen09.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       transform="rotate(90)" />
   </g>
 </svg>
