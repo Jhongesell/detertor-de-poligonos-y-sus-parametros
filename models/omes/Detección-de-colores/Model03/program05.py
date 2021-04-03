@@ -1,7 +1,15 @@
 import cv2
 import numpy as np
 
-# Espectros de colores BGR
+def dibujarContorno(contornos, color):
+	for (i, c) in enumerate(contornos):
+		M = cv2.moments(c)
+		if (M["m00"]==0): M["m00"]==1
+		x = int(M["m10"]/M["m00"])
+		y = int(M["m01"]/M["m00"])
+		cv2.drawContours(imagen, [c], 0, color, 2)
+		cv2.putText(imagen, str(i+1), (x-10,y+10), 1, 2,(0,0,0),2)
+
 amarilloBajo = np.array([20, 100, 20], np.uint8)
 amarilloAlto = np.array([32, 255, 255], np.uint8)
 
@@ -16,16 +24,6 @@ rojoAlto1 = np.array([10, 255, 255], np.uint8)
 rojoBajo2 = np.array([175, 100, 20], np.uint8)
 rojoAlto2 = np.array([180, 255, 255], np.uint8)
 
-celesteBajo = np.array([85, 100, 20], np.uint8)
-celesteAlto = np.array([100, 255, 255], np.uint8)
-
-azulBajo = np.array([101, 100, 20], np.uint8)
-azulAlto = np.array([126, 255, 255], np.uint8)
-
-rosadoBajo = np.array([145, 100, 20], np.uint8)
-rosadoAlto = np.array([155, 255, 255], np.uint8)
-
-# Cargando imagen a utilizar
 # Cargando imagen tipo PNG
 #imagen = cv2.imread('images/png/imagen01.png')
 #imagen = cv2.imread('images/png/imagen02.png')
@@ -61,52 +59,52 @@ imagen = cv2.imread('images/png/imagen06.png')
 
 imagenHSV = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
 
-# Detectando colores
+#Detectando colores 
 maskAmarillo = cv2.inRange(imagenHSV, amarilloBajo, amarilloAlto)
 maskVioleta = cv2.inRange(imagenHSV, violetaBajo, violetaAlto)
 maskVerde = cv2.inRange(imagenHSV, verdeBajo, verdeAlto)
 maskRojo1 = cv2.inRange(imagenHSV, rojoBajo1, rojoAlto1)
 maskRojo2 = cv2.inRange(imagenHSV, rojoBajo2, rojoAlto2)
-maskRojo = cv2.add(maskRojo1, maskRojo2)
-maskCeleste = cv2.inRange(imagenHSV, celesteBajo, celesteAlto)
-maskAzul = cv2.inRange(imagenHSV, azulBajo, azulAlto)
-maskRosado = cv2.inRange(imagenHSV, rosadoBajo, rosadoAlto)
+maskRojo =  cv2.add(maskRojo1, maskRojo2)
 
-# Dectectando contornos
+#Encontrando contornos
+#OpenCV 3
+#contornosAmarillo = cv2.findContours(maskAmarillo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
+#contornosVioleta = cv2.findContours(maskVioleta, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
+#contornosVerde = cv2.findContours(maskVerde, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
+#contornosRojo = cv2.findContours(maskRojo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
+
+#OpenCV 4
 contornosAmarillo = cv2.findContours(maskAmarillo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
-for (i,c) in enumerate(contornosAmarillo):
-        M = cv2.moments(c)
-        if (M["m00"]==0): M["m00"]==1
-        x = int(M["m10"]/M["m00"])
-        y = int(M["m01"]/M["m00"])
-        area = cv2.contourArea(c)
-        perimetro = cv2.arcLength(c,True)
-        cv2.drawContours(imagen, [c], 0, (0,255,255),2)
-        cv2.putText(imagen,str(i+1),(x-10,y+10),1,2,(0,0,0),2)
-        cv2.putText(imagen,"Amarillo",(x-30,y-40),3,0.4,(0,0,0),1)
-        cv2.putText(imagen,"Area: "+"{0:.2f}".format(area)+"pixeles",(x-50,y+50),3,0.3,(0,0,0),1)
-        cv2.putText(imagen,"Perimetro: "+"{0:.2f}".format(perimetro)+"pixeles",(x-60,y+70),3,0.3,(0,0,0),1)
-        
-contornosVioletas = cv2.findContours(maskVioleta, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
-#contornosVerdes = cv2.findContours(maskVerde, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
-#contornosRojos = cv2.findContours(maskRojo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
+contornosVioleta = cv2.findContours(maskVioleta, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
+contornosVerde = cv2.findContours(maskVerde, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
+contornosRojo = cv2.findContours(maskRojo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
 
-# Dibujando contornos
-#cv2.drawContours(imagen, contornosAmarillo, -1, (0,255,255),2)
-#cv2.drawContours(imagen, contornosVioletas, -1, (140, 40, 120), 2)
-#cv2.drawContours(imagen, contornosVerdes, -1, (0, 255,0), 2)
-#cv2.drawContours(imagen, contornosRojos, -1, (0, 0, 255), 2)
+dibujarContorno(contornosAmarillo, (0, 255,255))
+dibujarContorno(contornosVioleta, (140, 40, 120))
+dibujarContorno(contornosVerde, (0, 255, 0))
+dibujarContorno(contornosRojo, (0, 0, 255))
 
+#Imagen Resumen
+imgResumen = 255 * np.ones((210,100,3), dtype = np.uint8)
+cv2.circle(imgResumen, (30,30), 15, (0,255,255), -1)
+cv2.circle(imgResumen, (30,70), 15, (140,40,120), -1)
+cv2.circle(imgResumen, (30,110), 15, (0,255,0), -1)
+cv2.circle(imgResumen, (30,150), 15, (0,0,255), -1)
 
-# Mostrando ventanas
-#cv2.imshow('01. maskRojo',maskRojo)
-#cv2.imshow('02. maskAmarillo',maskAmarillo)
-#cv2.imshow('03. maskVerde',maskVerde)
-#cv2.imshow('04. maskCeleste',maskCeleste)
-#cv2.imshow('05. maskAzul', maskAzul)
-#cv2.imshow('06. maskRosado', maskRosado)
-#cv2.imshow('07. maskVioleta',maskVioleta)
+cv2.putText(imgResumen,str(len(contornosAmarillo)),(65,40), 1, 2,(0,0,0),2)
+cv2.putText(imgResumen,str(len(contornosVioleta)),(65,80), 1, 2,(0,0,0),2)
+cv2.putText(imgResumen,str(len(contornosVerde)),(65,120), 1, 2,(0,0,0),2)
+cv2.putText(imgResumen,str(len(contornosRojo)),(65,160), 1, 2,(0,0,0),2)
+totalCnts = len(contornosAmarillo) + len(contornosVioleta) + len(contornosVerde) + len(contornosRojo)
+cv2.putText(imgResumen,str(totalCnts),(55,200), 1, 2,(0,0,0),2)
+cv2.imshow('Resumen', imgResumen)
 
-cv2.imshow('Imagen',imagen)
+#cv2.imshow('maskAmarillo', maskAmarillo)
+#cv2.imshow('maskVioleta', maskVioleta)
+#cv2.imshow('maskVerde', maskVerde)
+#cv2.imshow('maskRojo', maskRojo)
+cv2.imshow('Imagen', imagen)
+cv2.imwrite('conteo.png', imagen)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
