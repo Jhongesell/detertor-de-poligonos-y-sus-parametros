@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pandas as pd
 
 # Espectros de colores BGR
 amarilloBajo = np.array([20, 100, 20], np.uint8)
@@ -35,7 +36,7 @@ rosadoAlto = np.array([155, 255, 255], np.uint8)
 #imagen = cv2.imread('images/png/imagen06.png')
 #imagen = cv2.imread('images/png/imagen07.png')
 #imagen = cv2.imread('images/png/imagen08.png')
-#imagen = cv2.imread('images/png/imagen09.png')
+imagen = cv2.imread('images/png/imagen09.png')
 
 # Cargando imagen tipo JPG
 #imagen = cv2.imread('images/jpg/imagen01.jpg') # Imprime error asociado al momento M

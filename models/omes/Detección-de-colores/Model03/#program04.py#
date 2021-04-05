@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pandas as pd
 
 # Espectros de colores BGR
 amarilloBajo = np.array([20, 100, 20], np.uint8)
@@ -29,7 +30,7 @@ rosadoAlto = np.array([155, 255, 255], np.uint8)
 # Cargando imagen tipo PNG
 #imagen = cv2.imread('images/png/imagen01.png')
 #imagen = cv2.imread('images/png/imagen02.png')
-#imagen = cv2.imread('images/png/imagen03.png') # Esta imagen dejó de funcionar porque usamos momentos
+imagen = cv2.imread('images/png/imagen03.png') # Esta imagen dejó de funcionar porque usamos momentos
 #imagen = cv2.imread('images/png/imagen04.png') # Imprime error asociado al momento M
 #imagen = cv2.imread('images/png/imagen05.png') # No es capaz de contar
 #imagen = cv2.imread('images/png/imagen06.png')
@@ -74,6 +75,7 @@ maskCeleste = cv2.inRange(imagenHSV, celesteBajo, celesteAlto)
 maskAzul = cv2.inRange(imagenHSV, azulBajo, azulAlto)
 maskRosado = cv2.inRange(imagenHSV, rosadoBajo, rosadoAlto)
 
+
 # Dectectando contornos
 contornosAmarillo = cv2.findContours(maskAmarillo, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
 for (i,c) in enumerate(contornosAmarillo):
@@ -88,6 +90,25 @@ for (i,c) in enumerate(contornosAmarillo):
         cv2.putText(imagen,"Amarillo",(x-30,y-40),3,0.4,(0,0,0),1)
         cv2.putText(imagen,"Area: "+"{0:.2f}".format(area)+"pixeles",(x-50,y+40),3,0.3,(0,0,0),1)
         cv2.putText(imagen,"Perimetro: "+"{0:.2f}".format(perimetro)+"pixeles",(x-60,y+50),3,0.3,(0,0,0),1)
+
+        # Escribiendo hoja CSV
+        lista00=[]
+        lista00.append(i)
+        print(lista00)
+
+        lista01=[]
+        lista01.append(c)
+        lista02=[]
+        lista02.append(area)
+        lista03=[]
+        lista03.append(perimetro)
+
+        data = {'Color': lista00,
+        'Número de elemento': lista00,
+        'Area': lista02,
+        'Perimetro': lista03}
+        df = pd.DataFrame(data, columns = ['Color','Número de elemento','Area','Perimetro'])
+        df.to_csv('amarillo.csv')
         
 contornosVioletas = cv2.findContours(maskVioleta, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
 for (i,c) in enumerate(contornosVioletas):

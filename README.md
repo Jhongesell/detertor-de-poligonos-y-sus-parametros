@@ -1,1 +1,2 @@
-# detertor-de-poligonos-y-sus-parametros
+# Detector de Poligonos
+A.y
