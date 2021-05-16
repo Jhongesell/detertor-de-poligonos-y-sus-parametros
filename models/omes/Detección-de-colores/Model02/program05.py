@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
 
 azulBajo = np.array([100,100,20],np.uint8)
 azulAlto = np.array([125,255,255],np.uint8)
