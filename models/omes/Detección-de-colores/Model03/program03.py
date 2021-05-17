@@ -27,7 +27,7 @@ rosadoAlto = np.array([155, 255, 255], np.uint8)
 
 # Cargando imagen a utilizar
 # Cargando imagen tipo PNG
-#imagen = cv2.imread('images/png/imagen01.png')
+imagen = cv2.imread('images/png/imagen01.png')
 #imagen = cv2.imread('images/png/imagen02.png')
 #imagen = cv2.imread('images/png/imagen03.png') # Esta imagen dejó de funcionar porque usamos momentos
 #imagen = cv2.imread('images/png/imagen04.png') # Imprime error asociado al momento M
